@@ -40,3 +40,79 @@ Formatando Strings
     var s = 'JavaScript'
     template Strings: Usando Crase
         `Eu estou aprendendo ${s}`
+
+
+Aula B7
+* Operadores parte 1
+
+Tipos:
+    Aritméticos:
+        + - * / % **
+        5 + 2 = 7
+        5 - 2 = 3
+        5 / 2 = 2.5
+        5 % 2 = 1 resto da divisão inteira
+        5 ** 2 = 25 valor ao quadrado
+
+        Ordem de Precedência:
+            ()
+            **
+            * / %
+            + -
+    Atribuição:
+
+        Atribuição simples n = 1 + 1
+        Auto atribuição    n = n + 1
+        Simplificando      n += 1
+        Incremento         ++n ou --n, etc 
+    
+
+Aula B8
+* Operadores parte 2
+
+    Relacionais:
+        maior >
+        menor <
+        maior igual >=
+        menor igual <=
+        igual ==
+        diferente !=
+
+            Retornam True ou False
+            5 > 2 é True
+
+        Identidade: ===
+            5 == 5 True
+            5 == '5' True
+            5 === '5' False
+            5 === 5 True
+
+
+    Lógicos:
+        negação ! 'não'
+        conjunção && 'e'
+        disjunção || 'ou'
+
+            Retornam True ou False
+            true  && true  é True
+            true  && false é False
+            false && true  é False
+            false && false é False
+
+            true  || true  é True
+            true  || false é True
+            false || true  é True
+            false || false é False
+
+* Dica Ordem de Precedência:
+    > Aritméticos + - * / % **
+        > Relacionais < > >= <= == !=
+            > Lógicos ! > && > ||
+
+    Ternário:
+        ? :
+        teste ? true : false
+        Ex: média >= 7.0 ? "Aprovado" : "Reprovado"
+
+
+
