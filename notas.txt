@@ -5,14 +5,38 @@ Identificadores podem usar:
     não podem ter espaços
     não podem usar palavras reservadas
 
-tipos: comando typeof para saber o tipo da variavel ex: typeof "var" retorna o tipo
-    number
-        Infinity
-        NaN
-    string
-    boolean
-    null
-    undefined
-    object
-        Array
-    function
+tipos:
+    var; let; const
+        number
+            Infinity
+            NaN
+        string
+        boolean
+        null
+        undefined
+        object
+            Array
+        function
+
+comando typeof para saber o tipo da variavel
+    Ex: typeof "var" retorna o tipo
+
+number + numer é uma adição
+    string + string é uma concatenação
+
+Fixar casas decimais
+    variavel.toFixed(quatas casas)
+    var n1 = 1545.5
+    Ex: n1.toFixed(2)
+        retorna '1545.50'
+    se quiser com virgula
+        n1.toFixed(2).replace('.', ',')
+            retorna '1545,50'
+    tmb por localidade país
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+            retorna 'R$ 1,545.50'
+
+Formatando Strings
+    var s = 'JavaScript'
+    template Strings: Usando Crase
+        `Eu estou aprendendo ${s}`
