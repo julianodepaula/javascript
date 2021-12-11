@@ -1,0 +1,18 @@
+Identificadores podem usar:
+    letra, $, _
+    não podem começar com números
+    podem usar ascentos
+    não podem ter espaços
+    não podem usar palavras reservadas
+
+tipos: comando typeof para saber o tipo da variavel ex: typeof "var" retorna o tipo
+    number
+        Infinity
+        NaN
+    string
+    boolean
+    null
+    undefined
+    object
+        Array
+    function
