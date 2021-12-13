@@ -115,4 +115,30 @@ Aula B8
         Ex: média >= 7.0 ? "Aprovado" : "Reprovado"
 
 
+Aula #09
 
+DOM = Document Object Model
+Arvore DOM  Raiz = objeto window
+
+Arvore do exercicio 9
+            windows
+            /  |  \
+    location   |    history
+             document
+               |
+              html
+             /     \
+          head      body
+         /  |       / | | \
+     meta  title   h1 p p  div
+                        |
+                      strong
+
+Podemos selecionar todos os elementos DOM de 5 maneiras:
+    Por Marca = getElementsByTagName()
+    Por ID = getElementsByID()
+    Por Nome = getElementsByName()
+    Por Classe = getElementsByClassName()
+    Por Seletor = querySelector() ou querySelectorAll()
+        Ex. window.document.querySelector('div#msg') # pra Id
+        Ex. window.document.querySelector('div.msg') # pra Class
