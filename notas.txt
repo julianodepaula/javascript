@@ -151,3 +151,31 @@ mouseenter, mousemove, mousedown..etc..
 
 Podemos usar eventos com função
 Ex: function ação(param){}
+
+Aula D11
+
+Condições em JavaScript Parte1:
+    Condição simples : if (condição) {true}
+    Condição composta : if (condição) {true} else {false}
+
+Condições em JavaScript Parte2:
+    Condição aninhadas: if elseif else
+    Condição múltipla:
+        switch(expressão) {
+            case valor1:
+        
+                break // é obrigatório o break em todos os cases
+
+            case valor2:
+                
+                break
+
+            case valor3:
+                
+                break
+
+            default:
+
+                break
+        }
+        
