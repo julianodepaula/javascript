@@ -1,4 +1,4 @@
 # javascript
- Curso JavaScript com prof. Rodrigo Guanabara
+ Curso JavaScript com prof. Gustavo Guanabara
 
-Segunda alteração....
+Estudando....

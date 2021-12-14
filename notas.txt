@@ -119,6 +119,7 @@ Aula #09
 
 DOM = Document Object Model
 Arvore DOM  Raiz = objeto window
+cada página HTML tem sua própria DOM
 
 Arvore do exercicio 9
             windows
@@ -142,3 +143,11 @@ Podemos selecionar todos os elementos DOM de 5 maneiras:
     Por Seletor = querySelector() ou querySelectorAll()
         Ex. window.document.querySelector('div#msg') # pra Id
         Ex. window.document.querySelector('div.msg') # pra Class
+
+Aula C10
+
+Evento = tudo que pode ocorrer com ele.
+mouseenter, mousemove, mousedown..etc..
+
+Podemos usar eventos com função
+Ex: function ação(param){}
