@@ -1,0 +1,47 @@
+div#foto {
+    text-align: center;
+    padding: 20px;
+}
+
+div#msg {
+    color: rgb(0, 0, 0);
+    font: bold 15pt Verdana;
+    background-color: rgba(211, 211, 211, 0.541);
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+
+
+body {
+    background: #ffd27e;
+    font: normal 15pt Verdana;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    font: bold 15pt Verdana;
+    background-color: rgba(0, 0, 0, 0.11);
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+
+}
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+
+footer {
+    
+    color: rgb(98, 0, 255);
+    text-align: center;
+    font: bold 12pt Courier;
+}
