@@ -44,14 +44,15 @@ section.card {
 }
 
 div#res {
-    background: rgb(245, 136, 255);
+    background: #00ffaac4;
+    border-radius:25px;
     padding: 15px;
     margin-bottom: 5px;
     text-align: center;
 }
 
 body {
-    background: rgb(147, 25, 163);
+    background: #5c99ca;
     font: bold 15pt Arial;
 }
 
@@ -72,7 +73,8 @@ section {
 
 footer {
     
-    color: rgb(255, 217, 0);
+    color: #000000;
     text-align: center;
-    font: bold 12pt Courier;
+    font: bold 12pt Arial;
+    font-style: italic;
 }
