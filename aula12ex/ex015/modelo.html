@@ -14,10 +14,10 @@
         <h1>Verificador de Idade</h1>
 
     </header>
-    <section>
+    <section class="card">
         <div>
             <p>Ano de Nascimento:
-                <input type="number" name="txtano" id="txtano" min="0">
+                <input type="number" name="txtano" id="txtano" min="0" class="custom-field">
             </p>
             <p>Sexo:
                 <input type="radio" name="radsex" id="mas" min="0" checked>
@@ -27,14 +27,13 @@
 
             </p>
             <p>
-                <input type="button" value="Verificar" onclick="verificar()">
+                <input type="button" value="Verificar" onclick="verificar()" class="myButton">
             </p>
 
         </div>
-        <div id="res">
-            Preencha os dados acima para ver o resultado!            
+        <div class="container" id="res">
+            Preencha os dados acima para ver o resultado!
         </div>
-
     </section>
 
     <footer>
