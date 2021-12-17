@@ -178,4 +178,30 @@ Condições em JavaScript Parte2:
 
                 break
         }
-        
+
+Aula E13 e 14
+
+Repetições em JavaScript
+
+    Repetição com teste lógico no início:
+    while(condição){
+        true
+    } false
+
+    Repetição com teste lógico no final:
+    do{
+        true
+    } while(condição) false
+
+    Repetição com variável de controle:
+    for(inicio; teste; incremento){
+        true
+    } false
+
+
+
+
+    
+
+
+
