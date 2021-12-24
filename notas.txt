@@ -200,8 +200,13 @@ Repetições em JavaScript
 
 
 
+Aula F15 
 
-    
+Variaveis compostas
+    Armazenam varios valores em uma mesma variavel
+    Array = Vetor > Elemento > Conteudo
+    Ex: var a = [5, 8, 2]
+
 
 
 
