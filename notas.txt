@@ -198,9 +198,23 @@ Repetições em JavaScript
         true
     } false
 
+Aula F15 
 
-Aula 
+Variaveis compostas
+    Armazenam varios valores em uma mesma variavel
+    Array = Vetor > Elemento > Conteudo
+    Ex: var a = [5, 8, 2]
 
 
+Aula 16
+
+Funções = São {ações} executadas assim que são {chamadas} 
+           ou em decorrencia de algum {evento}.
+          Uma função pode receber {parametros} e retornar um {resultado}.
+
+Ex: function chamada(param){}
+    ação...
+    return 'resultado'
+chamada(param)
 
 
