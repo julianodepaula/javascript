@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANUC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <img src="\Fanuc_Logo.png">
+        </h1>
+
+    </header>
+    <section>
+        <div>
+            <p>Inserir números (1 a 100):
+                <input type="number" id="ipt_valor" class="campo_input">
+                <input onclick="inserir()" type="button" value="Inserir" class="myButton">
+            </p>
+        </div>
+        <div id="div_lista">
+            <select name="name_inser" id="sel_lista" size="10">
+                <option></option>
+            </select>
+        </div>
+        <div id="div_btnFinal">
+            <input onclick="finalizar()" type="button" value="Finalizar" class="myButton">
+        </div>
+        <div id="div_res"></div>
+
+    </section>
+
+    <footer>
+
+        <p>&copy; RepairShop</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.campo_input {
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+    border-radius:25px;
+    background: #ffffff;
+    box-shadow: 3px 3px 15px -5px  #0400ff;
+    position: relative;
+  }
+  
+.myButton {
+	box-shadow: 3px 3px 15px -1px #830000;
+	background:linear-gradient(to bottom, #d10000 5%, #830000 100%);
+	background-color:#830000;
+	border-radius:25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15;
+	font-weight:bold;
+	padding:5px 15px;
+	text-decoration:none;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #830000 5%, #d10000 100%);
+	background-color:#d10000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+select#sel_lista {
+    width: 150px;
+}
+
+div#div_btnFinal {
+    padding: 10px 0px 10px 0px;
+
+}
+div#div_res {
+    background: #ddb500;
+    font: bold 12pt Arial;
+    border-radius:10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+body {
+    background: #ffd000;
+    font: bold 15pt Arial;
+}
+
+header {
+    color: #d10000;
+    text-align: center;
+    font-family: Arial;
+	font-size:15;
+	font-weight:bold;
+
+}
+
+section {
+    background: #ffd000;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+
+footer {
+    
+    color: #000000;
+    text-align: center;
+    font: bold 15pt Arial;
+    font-style: italic;
+}
